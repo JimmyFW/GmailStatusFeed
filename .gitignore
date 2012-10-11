@@ -1,5 +1,7 @@
-simple-server.js
-credentials.json
+./status-reader/lib
+./status-reader/external
+./status-reader/simple-server.js
+./status-reader/credentials.json
 
 lib-cov
 *.seed

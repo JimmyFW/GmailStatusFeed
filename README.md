@@ -11,3 +11,9 @@ which constantly runs in the background, pushing status changes to a SQL databas
 a front-end display using express.js.
 
 Right now, I really haven't got much. But I kinda outlined the general idea above.
+
+Dependencies
+===============
+node-simple-xmpp
+libxmljs
+express.js

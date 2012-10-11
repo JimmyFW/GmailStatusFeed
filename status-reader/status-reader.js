@@ -1,6 +1,7 @@
 var express = require('express');
 var xmpp = require('simple-xmpp');
 var fs = require('fs');
+var xmljson = require('libxmljs');
 var vars = {};
 
 vars.data = fs.readFileSync('credentials.json','ASCII');
@@ -11,13 +12,13 @@ start(vars.user,vars.pwd);
 
 xmpp.on('online', function() {
     console.log('Connected to ' + vars.user);
-//    probe(vars.user);
+  //  probe(vars.user);
 
 });
 
 xmpp.on('chat', function(from,message) {
-    xmpp.send(from, 'echo ' + message);
-    console.log(message);
+   // xmpp.send(from, 'echo ' + message);
+   // console.log(message);
 });
 
 xmpp.on('error', function(err) {
@@ -25,7 +26,15 @@ xmpp.on('error', function(err) {
 });
 
 xmpp.on('buddy',function(jid, state) {
-    console.log('%s is in %s state', jid,state);
+   // console.log('%s is in %s state', jid,state);
+});
+
+xmpp.on('stanza', function(stanza) {
+    vars.json = xmljson.parseXml(stanza);
+    console.log(Date()
+    + vars.json.get('status') + ' '
+    + vars.json.get('show') + ' '
+    + vars.json.get('priority'));
 });
 
 function start(user,pwd) {

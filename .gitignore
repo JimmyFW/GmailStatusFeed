@@ -2,6 +2,7 @@
 ./status-reader/external
 ./status-reader/simple-server.js
 ./status-reader/credentials.json
+./status-reader/external/node-xmpp-client
 
 lib-cov
 *.seed

@@ -1,40 +1,47 @@
 var express = require('express');
 var xmpp = require('simple-xmpp');
 var fs = require('fs');
+var vars = {};
 
-fs.readFile('credentials.json','ASCII', function(err, data) {
-    if(err) throw err;
-    var creds = eval('('+data+')');
-    var user = creds.user;
-    var pwd = creds.pwd;
-    start(user,pwd);
-});
-
+vars.data = fs.readFileSync('credentials.json','ASCII');
+var creds = eval('('+vars.data+')');
+vars.user = creds.user;
+vars.pwd = creds.pwd;
+start(vars.user,vars.pwd);
 
 xmpp.on('online', function() {
-    console.log('yo, im here');
+    console.log('Connected to ' + vars.user);
+//    probe(vars.user);
+
 });
 
 xmpp.on('chat', function(from,message) {
     xmpp.send(from, 'echo ' + message);
+    console.log(message);
 });
 
 xmpp.on('error', function(err) {
     console.error(err);
 });
 
+xmpp.on('buddy',function(jid, state) {
+    console.log('%s is in %s state', jid,state);
+});
+
 function start(user,pwd) {
+    console.log('Connecting to ' + user);
 xmpp.connect({
     jid:        user,
     password:   pwd,
     host:       'talk.google.com',
     port:       5222
 });
-    probe(user);
 }
 
 function probe(user) {
+    console.log("Attempting probe of " + user);
     xmpp.probe(user, function(state) {
-        console.log("dsufi"+state);
+        console.log("Probe of user "+ user + " " +state);
     });
 }
+

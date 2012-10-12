@@ -3,6 +3,7 @@
 ./status-reader/simple-server.js
 ./status-reader/credentials.json
 ./status-reader/external/node-xmpp-client
+./status-reader/output.txt
 
 lib-cov
 *.seed

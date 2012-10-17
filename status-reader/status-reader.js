@@ -1,8 +1,11 @@
+var clevOn = true;
+
 var express = require('express');
 var xmpp = require('simple-xmpp');
 var fs = require('fs');
 var xmljson = require('libxmljs');
-//var diff = require('./lib/jsdiff.js');
+var Cleverbot = require('cleverbot-node');
+var CBot = new Cleverbot;
 var vars = {};
 
 vars.data = fs.readFileSync('credentials.json','ASCII'); //synchronous
@@ -18,7 +21,17 @@ xmpp.on('online', function() {
 });
 
 xmpp.on('chat', function(from,message) {
-   // xmpp.send(from, 'echo ' + message);
+    var respond = function respond(clev) {
+        xmpp.send(from,clev['message']);
+    }
+
+
+    if(clevOn) {
+        CBot.write(message,respond);
+    }
+    else {
+    xmpp.send(from, "Hey there, how are you?");
+    }
    // console.log(message);
 });
 
@@ -51,7 +64,7 @@ xmpp.on('stanza', function(stanza) {
      + vars.showstr + ' '
      + vars.pristr;
     
-    vars.stream.write(logentry + '\n');
+    vars.stream.write(stanza + '\n');
     console.log(logentry);
 //    console.log(stanza + '\n');
    });

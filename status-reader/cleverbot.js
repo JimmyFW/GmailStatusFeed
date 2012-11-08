@@ -1,15 +1,10 @@
 var clevOn = true;
 
-var express = require('express');
-var app = express();
-var mongo = require('mongodb'),
-Server = mongo.Server,
-Db = mongo.Db;
-var server = new Server('localhost', 27017, {auto_reconnect: true});
-var db = new Db('test',server);
 var xmpp = require('simple-xmpp');
-var fs = require('fs');
-var xmljson = require('libxmljs');
+var fs = require('fs'); //for reading user credentials from a hidden file
+var xmljson = require('libxmljs'); //for parsing the xmpp stream
+var Cleverbot = require('cleverbot-node');
+var CBot = new Cleverbot;
 var vars = {};
 
 vars.data = fs.readFileSync('.credentials.json','ASCII'); //synchronous
@@ -19,25 +14,22 @@ vars.user = creds.user;
 vars.pwd = creds.pwd;
 start(vars.user,vars.pwd);
 
-db.open(function(err,db) {
-    if(!err){
-        console.log("Error opening database");
-    }
-});
-
-
-app.get('/', function(req, res) {
-    res.send('hello world');
-});
-app.listen(3000);
-
 xmpp.on('online', function() {
     console.log('Connected to ' + vars.user);
 
 });
 
 xmpp.on('chat', function(from,message) {
+    var respond = function respond(clev) {
+        xmpp.send(from,clev['message']);
+    }
+
+    if(clevOn) {
+        CBot.write(message,respond);
+    }
+    else {
     xmpp.send(from, "Hey there, how are you?");
+    }
 });
 
 xmpp.on('error', function(err) {
@@ -49,29 +41,6 @@ xmpp.on('buddy',function(jid, state) {
 });
 
 xmpp.on('stanza', function(stanza) {
-    vars.json = xmljson.parseXmlString(stanza);
-    vars.stat = vars.json.get('//status');
-    vars.show = vars.json.get('//show');
-    vars.pri = vars.json.get('//priority');
-    if(vars.stat) {
-    vars.statstr = vars.stat.text();
-    }
-    if(vars.show) {
-    vars.showstr = vars.show.text();
-    }
-    if(vars.pri) {
-    vars.pristr = vars.pri.text();
-    }
-    
-    var logentry = ""
-     + Date() + ' '
-     + vars.statstr + ' '
-     + vars.showstr + ' '
-     + vars.pristr;
-    
-    vars.stream.write(stanza + '\n');
-    console.log(logentry);
-//    console.log(stanza + '\n');
    });
 
 function start(user,pwd) {

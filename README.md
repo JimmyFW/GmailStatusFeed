@@ -14,7 +14,11 @@ which constantly runs in the background, pushing status changes to a SQL databas
 a front-end display using express.js.
 
 
-Right now, I really haven't got much. But I kinda outlined the general idea above.
+Right now, I've got a script that logs status changes to a text file.
+I also decided to implement a script that redirects chats to cleverbot. That's just a fun thing I did on the side.
+
+Next steps are: implement a persistent server (possibly using MongoDB) to store status updates.
+Then, use some MVC framework to make this into a webapp.
 
 
 Dependencies

@@ -15,10 +15,25 @@ a front-end display using express.js.
 
 
 Right now, I've got a script that logs status changes to a text file.
-I also decided to implement a script that redirects chats to cleverbot. That's just a fun thing I did on the side.
+I also decided to implement a script that redirects chats to cleverbot - just a fun thing I did on the side.
 
 Next steps are: implement a persistent server (possibly using MongoDB) to store status updates.
 Then, use some MVC framework to make this into a webapp.
+
+Instructions
+===============
+1. git clone https://github.com/JimmyFW/GmailStatusFeed.git
+2. cd status-reader
+3. npm install
+4. Make a file called .credentials.json that contains one line, formatted as follows:
+    {user: '[GMAIL_ID_GOES_HERE]', pwd: '[GMAIL_PWD_GOES_HERE]'}
+    .credentials.json should be in the same directory as status-reader.js
+    don't forget the dot!
+5. node status-reader.js
+
+For fun:
+5. node cleverbot.js
+6. start a conversation with a friend, and watch the magic happen!
 
 
 Dependencies
@@ -28,3 +43,7 @@ node-simple-xmpp
 libxmljs
 
 express.js
+
+mongodb
+
+fs

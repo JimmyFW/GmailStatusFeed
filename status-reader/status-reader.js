@@ -1,5 +1,17 @@
-var clevOn = true;
+//status-reader.js
+//How to use status-reader:
+//you must have a gmail account
+//make a credentials.json file that contains one line formatted as follows:
+//    {user: '[GMAIL_ID_GOES_HERE]', pwd: '[GMAIL_PWD_GOES_HERE]'}
+//    credentials.json should be in the same directory
+//run status-reader.js with node
+//when someone updates their status,
+//    the data will be printed to console
+//    and it will be written to a text file
 
+//warning: database implementation is pending
+
+//included packages and startup
 var express = require('express');
 var app = express();
 var mongo = require('mongodb'),
@@ -10,7 +22,8 @@ var db = new Db('test',server);
 var xmpp = require('simple-xmpp');
 var fs = require('fs');
 var xmljson = require('libxmljs');
-var vars = {};
+
+var vars = {}; //namespace for instance-specific variables
 
 vars.data = fs.readFileSync('.credentials.json','ASCII'); //synchronous
 vars.stream = fs.createWriteStream('output.txt'); //fs.WriteStream
@@ -18,6 +31,16 @@ var creds = eval('('+vars.data+')');
 vars.user = creds.user;
 vars.pwd = creds.pwd;
 start(vars.user,vars.pwd);
+
+function start(user,pwd) {
+    console.log('Connecting to ' + user);
+    xmpp.connect({
+        jid:        user,
+        password:   pwd,
+        host:       'talk.google.com',
+        port:       5222
+});
+}
 
 db.open(function(err,db) {
     if(!err){
@@ -74,15 +97,6 @@ xmpp.on('stanza', function(stanza) {
 //    console.log(stanza + '\n');
    });
 
-function start(user,pwd) {
-    console.log('Connecting to ' + user);
-    xmpp.connect({
-        jid:        user,
-        password:   pwd,
-        host:       'talk.google.com',
-        port:       5222
-});
-}
 
 function probe(user) {
     console.log("Attempting probe of " + user);

@@ -4,7 +4,7 @@
 ./status-reader/.credentials.json
 ./status-reader/.credentials.json.jimmy
 ./status-reader/external/node-xmpp-client
-./status-reader/output.txt
+./status-reader/outputs
 ./learn-mongo/
 
 lib-cov

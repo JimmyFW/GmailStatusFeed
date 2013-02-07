@@ -48,8 +48,8 @@ var vars = {}; //namespace for instance-specific variables
 
 
 vars.data = fs.readFileSync('.credentials.json','ASCII'); //synchronous
-vars.stream = fs.createWriteStream('output.txt'); //fs.WriteStream
-vars.streamAll = fs.createWriteStream('allOutput.txt'); //fs.WriteStream
+vars.stream = fs.createWriteStream('outputs/output.txt'); //fs.WriteStream
+vars.streamAll = fs.createWriteStream('outputs/allOutput.txt'); //fs.WriteStream
 var creds = eval('('+vars.data+')');
 vars.user = creds.user;
 vars.pwd = creds.pwd;

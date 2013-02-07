@@ -12,25 +12,50 @@
 //warning: database implementation is pending
 
 //included packages and startup
-var express = require('express');
-var app = express();
-var mongo = require('mongodb'),
-Server = mongo.Server,
-Db = mongo.Db;
-var server = new Server('localhost', 27017, {auto_reconnect: true});
-var db = new Db('test',server);
-var xmpp = require('simple-xmpp');
-var fs = require('fs');
-var xmljson = require('libxmljs');
+var express = require('express')
+    , stylus = require('stylus')
+    , nib = require('nib');
 
+var mongoose = require('mongoose')
+    , db = mongoose.connect('mongodb://localhost/mydb')
+    , Schema = mongoose.Schema;
+
+var app = express();
+
+app.configure(function() {
+    app.set('views',__dirname + '/views');
+    app.set('view engine', 'jade');
+    app.use(express.logger('dev'));
+    app.use(stylus.middleware({
+        src: __dirname + '/public'
+        , compile: compile
+    }))
+    app.use(express.static(__dirname + '/public'));
+});
+app.listen(3000);
+
+var xmpp = require('simple-xmpp')
+    , fs = require('fs')
+    , xmljson = require('libxmljs');
+
+var Item = new Schema({
+    content: String
+});
+var ItemModel = mongoose.model('Item', Item);
+var item = new ItemModel();
 var vars = {}; //namespace for instance-specific variables
+
+
 
 vars.data = fs.readFileSync('.credentials.json','ASCII'); //synchronous
 vars.stream = fs.createWriteStream('output.txt'); //fs.WriteStream
+vars.streamAll = fs.createWriteStream('allOutput.txt'); //fs.WriteStream
 var creds = eval('('+vars.data+')');
 vars.user = creds.user;
 vars.pwd = creds.pwd;
 start(vars.user,vars.pwd);
+
+
 
 function start(user,pwd) {
     console.log('Connecting to ' + user);
@@ -42,17 +67,15 @@ function start(user,pwd) {
 });
 }
 
-db.open(function(err,db) {
-    if(!err){
-        console.log("Error opening database");
-    }
-});
 
 
 app.get('/', function(req, res) {
-    res.send('hello world');
+    res.render('index', {
+        title: 'hiofhiodsjfosd',
+        line: vars.logentry
+    });
+    //res.end('hi there');
 });
-app.listen(3000);
 
 xmpp.on('online', function() {
     console.log('Connected to ' + vars.user);
@@ -76,6 +99,7 @@ xmpp.on('stanza', function(stanza) {
     vars.stat = vars.json.get('//status');
     vars.show = vars.json.get('//show');
     vars.pri = vars.json.get('//priority');
+
     if(vars.stat) {
     vars.statstr = vars.stat.text();
     }
@@ -86,14 +110,15 @@ xmpp.on('stanza', function(stanza) {
     vars.pristr = vars.pri.text();
     }
     
-    var logentry = ""
+    vars.logentry = ""
      + Date() + ' '
      + vars.statstr + ' '
      + vars.showstr + ' '
      + vars.pristr;
     
-    vars.stream.write(stanza + '\n');
-    console.log(logentry);
+    vars.stream.write(vars.logentry + '\n');
+    vars.streamAll.write(stanza + '\n');
+    console.log(vars.logentry);
 //    console.log(stanza + '\n');
    });
 
@@ -105,3 +130,8 @@ function probe(user) {
     });
 }
 
+function compile(str, path) {
+  return stylus(str)
+    .set('filename', path)
+    .use(nib())
+}

@@ -1,18 +1,21 @@
 extend template
+block head
+  title JIUODSJFIOSDJFOISDJFIOSDFJ
+  block scripts
+    script(src="../node_modules/socket.io/lib/socket.io.js")
+    script(src="index.js")
+    script
+      alert('dsifosdjiofdsf');
+
+
 block content
   p
-    | #{line} iosujiofsoif fuck you
+    | #{line}
   p
     | Vivamus hendrerit arcu sed erat molestie
     | vehicula. Sed auctor neque eu tellus
     | rhoncus ut eleifend nibh porttitor. Ut in.
-  p
-    | Donec congue lacinia dui, a porttitor
-    | lectus condimentum laoreet. Nunc eu
-    | ullamcorper orci. Quisque eget odio ac
-    | lectus vestibulum faucibus eget in metus.
-    | In pellentesque faucibus vestibulum. Nulla
-    | at nulla justo, eget luctus tortor.
+
 block sidebar
   .widget
     h1 Widget

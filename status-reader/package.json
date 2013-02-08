@@ -15,6 +15,7 @@
         "simple-xmpp": "*",
         "fs": "*",
         "libxmljs": "*",
+        "socket.io": "*",
         "mongoose": "*"},
   "repository" : {"type": "git", "url": "git://github.com/JimmyFW/GmailStatusFeed.git"},
   "main" : "status-reader.js",

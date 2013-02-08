@@ -8,14 +8,18 @@ The ultimate goal of this thing is to fetch the status messages of your friends 
     a. sentiment analysis
     b. friend specific information: distribution of status update times, most frequently used words
 
-I'm trying to achieve this by setting up an XMPP server in node.js. The finished project should be a daemon
-which constantly runs in the background, pushing status changes to a MongoDB database in real time, and rendering
-a front-end display using express.js. Later I might change my mind to use meteor.js.
+I'm trying to achieve this by setting up a node.js server. The finished project should be a daemon
+which constantly runs in the background, pushing status changes to a MongoDB database, and rendering
+a front-end display in real time using express.js and socket.io.
 
-Right now, I've got a script that logs status changes to a text file.
-I also decided to implement a script that redirects chats to cleverbot - just a fun thing I did on the side.
+status-reader.js consists of a node xmpp chat client which fetches gmail status updates,
+an express.js frontend, and a socket.io pipeline which sends data asynchronously
+and renders page updates in real time.
 
-Next steps are: implement a persistent server (possibly using MongoDB) to store status updates.
+cleverbot.js is a script that redirects chats to cleverbot, letting it speak to your friends
+on your behalf - just a fun thing I did on the side.
+
+Next steps are: implement a persistent server (using Mongoose and MongoDB) to store status updates.
 Then, use some MVC framework to make this into a webapp.
 
 Instructions
@@ -45,3 +49,7 @@ express.js
 mongodb
 
 fs
+
+socket.io
+
+mongoose

@@ -40,9 +40,13 @@ var xmpp = require('simple-xmpp')
     , fs = require('fs')
     , xmljson = require('libxmljs');
 
-var Item = new Schema({ content: String });
+var Item = new Schema({
+    date: String,
+    from: String,
+    status: String
+});
 var ItemModel = mongoose.model('Item', Item);
-var item = new ItemModel();
+//var Item = new ItemModel();
 
 sio.sockets.on('connection', function(socket) {
     console.log('Sockets have been turned on');
@@ -70,7 +74,7 @@ function start(user,pwd) {
         password:   pwd,
         host:       'talk.google.com',
         port:       5222
-});
+    });
 }
 
 
@@ -78,11 +82,16 @@ function start(user,pwd) {
 app.get('/', function(req, res) {
     
     res.render('index', {
-        title: 'Original title',
+        title: 'nodejs',
         line: 'This is a line that will be rendered'
     });
     
     //res.sendfile(__dirname + '/views/index.jade');
+});
+
+app.get('/items', function(req, res) {
+
+    console.log(Item.find());
 });
 
 xmpp.on('online', function() {
@@ -107,31 +116,38 @@ xmpp.on('stanza', function(stanza) {
     vars.stat = vars.json.get('//status');
     vars.show = vars.json.get('//show');
     vars.pri = vars.json.get('//priority');
+    vars.pres = vars.json.get('//presence');
+    vars.from = vars.pres.attr('from');
 
-    if(vars.stat) {
-    vars.statstr = vars.stat.text();
-    }
-    if(vars.show) {
-    vars.showstr = vars.show.text();
-    }
-    if(vars.pri) {
-    vars.pristr = vars.pri.text();
-    }
+    if(vars.stat) { vars.statstr = vars.stat.text(); }
+    if(vars.from) { vars.fromstr = vars.from.value(); }
     
-    vars.logentry = ""
-     + Date() + ' '
-     + vars.statstr + ' '
-     + vars.showstr + ' '
-     + vars.pristr;
-    
-    vars.stream.write(vars.logentry + '\n');
-    vars.streamAll.write(stanza + '\n');
-    console.log(vars.logentry);
+    vars.logentry = {
+        'date':     Date(),
+        'from':     vars.fromstr,
+        'status':   vars.statstr
+    };
 
-    //var stanzaSocket = sio.connect('http://localhost');
+
+    vars.itemdata = {
+        date: Date().toString(),
+        from: vars.fromstr,
+        status: vars.statstr
+    }
+
+    
+    //vars.stream.write(vars.logentry + '\n');
+    vars.streamAll.write(vars.json + '\n');
+    console.log(vars.json);
+
     sio.sockets.emit('xmpp-push', vars.logentry);
 
-   });
+    vars.item = new ItemModel(vars.itemdata);
+    vars.item.save( function(error, data) {
+        if(error) { console.log("BIG ERROR"); }
+    });
+
+});
 
 
 function probe(user) {

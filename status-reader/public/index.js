@@ -4,12 +4,14 @@ var socket = io.connect('http://localhost:3000');
 
 socket.on('connect', function() {
 	console.log('Am I here?');
-	//socket.emit('adduser', prompt("What's your name?"));
 });
 
 socket.on('xmpp-push', function (data) {
-    console.log("push: " + data);
-    $('.main-content ul.posts').append("<li>"+data+"</li>");
+	var status = data['status'];
+	var from = data['from'];
+	var date = data['date'];
+    console.log("push: " + date);
+    $('.main-content ul.posts').append("<li>Timestamp: "+date+"From: "+from+" Message: "+status+"</li>");
 });
 socket.on('establish', function (data) {
 	console.log("Connection established with express");

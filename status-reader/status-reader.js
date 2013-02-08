@@ -14,13 +14,13 @@
 //included packages and startup
 var express = require('express')
     , stylus = require('stylus')
-    , nib = require('nib');
+    , nib = require('nib')
+    , app = express()
+    , io = require('socket.io');
 
 var mongoose = require('mongoose')
     , db = mongoose.connect('mongodb://localhost/mydb')
     , Schema = mongoose.Schema;
-
-var app = express();
 
 app.configure(function() {
     app.set('views',__dirname + '/views');
@@ -32,17 +32,23 @@ app.configure(function() {
     }))
     app.use(express.static(__dirname + '/public'));
 });
-app.listen(3000);
+
+var server = app.listen(3000);
+var sio = io.listen(server);
 
 var xmpp = require('simple-xmpp')
     , fs = require('fs')
     , xmljson = require('libxmljs');
 
-var Item = new Schema({
-    content: String
-});
+var Item = new Schema({ content: String });
 var ItemModel = mongoose.model('Item', Item);
 var item = new ItemModel();
+
+sio.sockets.on('connection', function(socket) {
+    console.log('Sockets have been turned on');
+    socket.emit('establish', { hello: 'world'});
+});
+
 var vars = {}; //namespace for instance-specific variables
 
 
@@ -70,11 +76,13 @@ function start(user,pwd) {
 
 
 app.get('/', function(req, res) {
+    
     res.render('index', {
-        title: 'hiofhiodsjfosd',
-        line: vars.logentry
+        title: 'Original title',
+        line: 'This is a line that will be rendered'
     });
-    //res.end('hi there');
+    
+    //res.sendfile(__dirname + '/views/index.jade');
 });
 
 xmpp.on('online', function() {
@@ -119,7 +127,10 @@ xmpp.on('stanza', function(stanza) {
     vars.stream.write(vars.logentry + '\n');
     vars.streamAll.write(stanza + '\n');
     console.log(vars.logentry);
-//    console.log(stanza + '\n');
+
+    //var stanzaSocket = sio.connect('http://localhost');
+    sio.sockets.emit('xmpp-push', vars.logentry);
+
    });
 
 

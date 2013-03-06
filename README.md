@@ -27,15 +27,27 @@ Instructions
 1. git clone https://github.com/JimmyFW/GmailStatusFeed.git
 2. cd status-reader
 3. npm install
-4. Make a file called .credentials.json that contains one line, formatted as follows:
-    {user: '[GMAIL_ID_GOES_HERE]', pwd: '[GMAIL_PWD_GOES_HERE]'}
-    .credentials.json should be in the same directory as status-reader.js
-    don't forget the dot!
-5. node status-reader.js
+4. Make a file called ".credentials.json" that contains one line, formatted as follows:
+
+```
+{user: '[GMAIL_ID_GOES_HERE]', pwd: '[GMAIL_PWD_GOES_HERE]'}
+```
+
+.credentials.json should be in the same directory as status-reader.js. Don't forget the dot!
+
+    5.
+```
+node status-reader.js
+```
 
 For fun:
-5. node cleverbot.js
-6. start a conversation with a friend, and watch the magic happen!
+    5. 
+
+```
+node cleverbot.js
+```
+
+    6. start a conversation with a friend, and watch the magic happen!
 
 
 Dependencies
@@ -53,3 +65,8 @@ fs
 socket.io
 
 mongoose
+
+Database Planning
+===============
+*Should store chat info for each user.
+*

@@ -35,19 +35,17 @@ Instructions
 
 .credentials.json should be in the same directory as status-reader.js. Don't forget the dot!
 
-    5.
+Run in the prompt with
 ```
 node status-reader.js
 ```
 
 For fun:
-    5. 
 
 ```
 node cleverbot.js
 ```
-
-    6. start a conversation with a friend, and watch the magic happen!
+then start a conversation with a friend. Sit back and watch the magic happen!
 
 
 Dependencies

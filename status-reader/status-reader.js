@@ -124,12 +124,12 @@ xmpp.on('buddy',function(jid, state) {
 });
 
 xmpp.on('stanza', function(stanza) {
+    console.log(stanza);
     vars.json = xmljson.parseXmlString(stanza);
     vars.logentry = parse(stanza);
     
     vars.stream.write(vars.logentry + '\n');
     vars.streamAll.write(vars.json + '\n');
-    console.log(vars.json);
 
     sio.sockets.emit('xmpp-push', vars.logentry);
 
@@ -162,18 +162,37 @@ function parse(stanza) {
     var json = xmljson.parseXmlString(stanza);
 
     var stat = json.get('//status')
-    , show = json.get('//show')
     , pri = json.get('//priority')
     , pres = json.get('//presence')
-    , from = pres.attr('from');
+    , from = pres.attr('from')
+    , to = pres.attr('to')
+    , xmlns_stream = pres.attr('xmlns:stream')
+    /*
+    , caps_c = json.get('//caps:c')
+    , node = caps_c.attr('node')
+    , ver = caps_c.attr('ver')
+    , ext = caps_c.attr('ext')*/
+    , photo = json.get('//photo');
 
-    if(stat) { var statstr = stat.text(); }
-    if(from) { var fromstr = from.value(); }
+
+    if(from) { var from_str = from.value(); }
+    else { var from_str = ""; }
+    if(to) { var to_str = to.value(); }
+    else { var to_str = ""; }
+    if(stat) { var stat_str = stat.text(); }
+    else { var stat_str = ""; }
+    if(pres) { var pres_str = pres.text(); }
+    else { var pres_str = ""; }
+    if(photo) { var photo_str = photo.text(); }
+    else { var photo_str = ""; }
     
     var logentry = {
         'date':     Date(),
-        'from':     fromstr,
-        'status':   statstr
+        'from':     from_str,
+        'to':     to_str,
+        'status':   stat_str,
+        'presence': pres_str,
+        'photo': photo_str
     };
 
     return logentry;

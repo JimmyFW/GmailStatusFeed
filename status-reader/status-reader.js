@@ -23,9 +23,11 @@ var express = require('express')
     , nib = require('nib')
     , io = require('socket.io')
     , xmpp = require('simple-xmpp')
-    , fs = require('fs')
     , xmljson = require('libxmljs')
     , mongoose = require('mongoose');
+    
+var fs = require('fs')
+    , readline = require('readline');
 
 
 // connect to database and define schemas
@@ -71,20 +73,39 @@ var vars = {}; //namespace for instance-specific variables
 // *******************************************************
 
 
+//
+vars.settings_data = fs.readFileSync('sr-config.json');
+vars.settings = eval('(' + vars.settings_data + ')');
+console.log("0 for prompt, 1 for auto: " + vars.settings.dev);
 
 // set up output streams for debugging
+if(vars.settings.dev == 1) {
+    vars.data = fs.readFileSync('.credentials.json','ASCII'); //synchronous
+    vars.stream = fs.createWriteStream('outputs/output.txt'); //fs.WriteStream
+    vars.streamAll = fs.createWriteStream('outputs/allOutput.txt'); //fs.WriteStream
 
-vars.data = fs.readFileSync('.credentials.json','ASCII'); //synchronous
-vars.stream = fs.createWriteStream('outputs/output.txt'); //fs.WriteStream
-vars.streamAll = fs.createWriteStream('outputs/allOutput.txt'); //fs.WriteStream
 
+    // connect to gmail client
 
-// connect to gmail client
+    var creds = eval('('+vars.data+')');
+    vars.user = creds.user;
+    vars.pwd = creds.pwd;
+    start(vars.user,vars.pwd);
+}
+else {
+    var rl = readline.createInterface({
+        input: process.stdin,
+        output: process.stdout
+    });
+    vars.user = rl.question("What is your username? ", function(answer) {
+        vars.user = answer;
+    });
+    vars.pwd = getPassword("What is your password? ", function(answer) {
+        vars.pwd = answer;
+    });
+    start(vars.user,vars.pwd);
+}
 
-var creds = eval('('+vars.data+')');
-vars.user = creds.user;
-vars.pwd = creds.pwd;
-start(vars.user,vars.pwd);
 
 
 // *******************************************************
@@ -100,8 +121,12 @@ app.get('/', function(req, res) {
     });
 });
 
-app.get('/items', function(req, res) {
-    console.log(Item.find());
+app.get('/login', function(req, res) {
+    //console.log(Item.find());
+    res.render('login', {
+        title: 'Log in to gmail',
+        line: 'Enter your gchat username and password, please'
+    });
 });
 
 // define behaviors for node-xmpp chat client
@@ -209,4 +234,49 @@ function compile(str, path) {
   return stylus(str)
     .set('filename', path)
     .use(nib())
+}
+
+function getPassword(prompt, callback) {
+    if (callback === undefined) {
+        callback = prompt;
+        prompt = undefined;
+    }
+    if (prompt === undefined) {
+        prompt = 'Password: ';
+    }
+    if (prompt) {
+        process.stdout.write(prompt);
+    }
+
+    var stdin = process.stdin;
+    stdin.resume();
+    stdin.setRawMode(true);
+    stdin.resume();
+    stdin.setEncoding('utf8');
+
+    var password = '';
+    stdin.on('data', function (ch) {
+        ch = ch + "";
+
+        switch (ch) {
+        case "\n":
+        case "\r":
+        case "\u0004":
+            // They've finished typing their password
+            process.stdout.write('\n');
+            stdin.setRawMode(false);
+            stdin.pause();
+            callback(false, password);
+            break;
+        case "\u0003":
+            // Ctrl-C
+            callback(true);
+            break;
+        default:
+            // More passsword characters
+            process.stdout.write('*');
+            password += ch;
+            break;
+        }
+    });
 }

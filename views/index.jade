@@ -1,0 +1,16 @@
+extends layout
+block head
+  title Title to be wiped later
+  block scripts
+    script(type='text/javascript', src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js')
+    //script(type='text/javascript', src='/socket.io/socket.io.js')
+    script(type='text/javascript', src='/javascripts/index.js')
+
+block content
+  h1.section Last ten stored
+  #statuses
+
+block sidebar
+  .widget
+    h1 Fresh pings
+    ul.posts

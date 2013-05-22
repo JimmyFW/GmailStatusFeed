@@ -1,0 +1,18 @@
+!!!5
+html
+  head
+    title #{title} - Gmail Statistics
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/custom.css')
+    block scripts
+  body
+    header
+      h1 Gmail status reader
+    .container
+      .main-content
+        block content
+      .sidebar
+        block sidebar
+    footer
+      p Running on node with Express, Jade and Stylus
+      p Created by Jimmy Wu at Olin College

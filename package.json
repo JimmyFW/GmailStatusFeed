@@ -1,0 +1,26 @@
+{
+  "name" : "status-reader",
+  "version" : "0.1.3",
+  "private" : true,
+  "scripts": {
+    "start": "node app"
+  },
+  "description" : "Logs your friends' gmail statuses to text",
+  "homepage" : "http://www.github.com/jimmyfw/GmailStatusFeed",
+  "keywords" : ["xmpp", "chat", "server", "client", "gmail", "status"],
+  "author" : "James Wu",
+  "dependencies" : {
+        "express": "3.0.0",
+        "jade": "*",
+        "stylus": "*",
+        "nib": "*",
+        "cleverbot-node": "*",
+        "mongodb": "*",
+        "simple-xmpp": "*",
+        "fs": "*",
+        "libxmljs": "*",
+        "socket.io": "*",
+        "mongoose": "*",
+        "everyauth": "*"},
+  "repository" : {"type": "git", "url": "git://github.com/JimmyFW/GmailStatusFeed.git"}
+}

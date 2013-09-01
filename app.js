@@ -29,8 +29,6 @@ app.configure('development', function(){
   app.use(express.errorHandler());
 });
 
-//var status_data = require('./model/statuses');
-
 app.get('/', routes.index);
 app.get('/users', user.list);
 app.get('/static_status', ss.index);

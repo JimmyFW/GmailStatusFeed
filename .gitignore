@@ -1,6 +1,5 @@
 /lib
 .credentials.json
-.credentials.json.jimmy
 
 lib-cov
 *.seed

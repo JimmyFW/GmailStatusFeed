@@ -1,3 +1,7 @@
+.credentials.json
+
+lib
+
 ./status-reader/lib
 ./status-reader/external
 ./status-reader/simple-server.js

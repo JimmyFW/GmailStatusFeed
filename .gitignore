@@ -1,15 +1,5 @@
+/lib
 .credentials.json
-
-lib
-
-./status-reader/lib
-./status-reader/external
-./status-reader/simple-server.js
-./status-reader/.credentials.json
-./status-reader/.credentials.json.jimmy
-./status-reader/external/node-xmpp-client
-./status-reader/outputs
-./learn-mongo/
 
 lib-cov
 *.seed

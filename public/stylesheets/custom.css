@@ -1,0 +1,15 @@
+.status_box {
+	margin: 10px;
+	padding: 5px;
+	border: 1px solid #CCCCCC;
+	width: 400px;
+}
+
+.status_box h1 {
+	font-size: 1.5em;
+}
+
+h1.section {
+	font-family: 'Quicksand';
+	font-size: 2em;
+}

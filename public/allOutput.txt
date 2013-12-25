@@ -1,0 +1,103 @@
+<presence from="james.wu.jimmy@gmail.com/gmail.D2FA7346" to="james.wu.jimmy@gmail.com/F815667B" xmlns:stream="http://etherx.jabber.org/streams"><status>http://s3-ec.buzzfed.com/static/enhanced/webdr02/2013/8/24/18/enhanced-buzz-21855-1377383565-35.jpg | http://comediansincarsgettingcoffee.com/michael-richards-its-bubbly-time-jerry | http://www.youtube.com/watch?v=yY4nL2ekEEk http://i.imgur.com/CAbZxui.png</status><priority>24</priority><caps:c node="http://mail.google.com/xmpp/client/caps" ver="1.1" ext="pmuc-v1 sms-v1 camera-v1 video-v1 voice-v1" xmlns:caps="http://jabber.org/protocol/caps"/><x xmlns="vcard-temp:x:update"><photo/></x></presence>
+
+<presence from="alec.radford@gmail.com/MessagingAcf86331d" to="james.wu.jimmy@gmail.com/F815667B" xmlns:stream="http://etherx.jabber.org/streams"><show>away</show><caps:c node="http://www.android.com/gtalk/client/caps" ver="1.1" xmlns:caps="http://jabber.org/protocol/caps"/><x xmlns="vcard-temp:x:update"><photo>4fbce3490818fa77f12c3908e637dfc2601e9b22</photo></x></presence>
+
+<presence from="explodingmind@gmail.com/gmail.D29B584E" to="james.wu.jimmy@gmail.com/F815667B" xmlns:stream="http://etherx.jabber.org/streams"><status/><show>away</show><priority>0</priority><caps:c node="http://mail.google.com/xmpp/client/caps" ver="1.1" ext="pmuc-v1 sms-v1 video-v1 voice-v1" xmlns:caps="http://jabber.org/protocol/caps"/><x xmlns="vcard-temp:x:update"><photo>18450e80baefadba3335c57c0bbd13423111d253</photo></x></presence>
+
+<presence from="chaz.gwenapp@gmail.com/gmail.D17F5156" to="james.wu.jimmy@gmail.com/F815667B" xmlns:stream="http://etherx.jabber.org/streams"><status>in DLL hell :(</status><show>away</show><priority>0</priority><caps:c node="http://mail.google.com/xmpp/client/caps" ver="1.1" ext="pmuc-v1 sms-v1 camera-v1 video-v1 voice-v1" xmlns:caps="http://jabber.org/protocol/caps"/><x xmlns="vcard-temp:x:update"><photo>1cc263f182d0b77ca9bec1b37d1b61d4c67c7127</photo></x></presence>
+
+<presence from="amankapur91@gmail.com/android_talk65ddc69b16a8" to="james.wu.jimmy@gmail.com/F815667B" xmlns:stream="http://etherx.jabber.org/streams"><status/><priority>24</priority><caps:c node="http://www.android.com/gtalk/client/caps" ext="pmuc-v1 voice-v1 video-v1 camera-v1" ver="1.1" xmlns:caps="http://jabber.org/protocol/caps"/><show>dnd</show><x xmlns="vcard-temp:x:update"><photo>0309d97eebcf96ff88a86a1c7862e495f6d775c1</photo></x></presence>
+
+<presence from="amankapur91@gmail.com/BlackBerryE94B4891" to="james.wu.jimmy@gmail.com/F815667B" xmlns:stream="http://etherx.jabber.org/streams"><status/>
+    <caps:c node="http://www.google.com/xmpp/client/caps" ext="share-v1 pmuc-v1" xmlns:caps="http://jabber.org/protocol/caps"/>
+    
+<show>dnd</show><x xmlns="vcard-temp:x:update"><photo>0309d97eebcf96ff88a86a1c7862e495f6d775c1</photo></x></presence>
+
+<presence from="etmail10@gmail.com/MessagingA1c5ae864" to="james.wu.jimmy@gmail.com/F815667B" xmlns:stream="http://etherx.jabber.org/streams"><show>away</show><caps:c node="http://www.android.com/gtalk/client/caps" ver="1.1" xmlns:caps="http://jabber.org/protocol/caps"/><x xmlns="vcard-temp:x:update"><photo>521e4a046bd0e6b568232a6cc3c73b40a097c2f3</photo></x></presence>
+
+<presence from="reyner@gmail.com/gmail.D2A02432" to="james.wu.jimmy@gmail.com/F815667B" xmlns:stream="http://etherx.jabber.org/streams"><status/><show>away</show><priority>0</priority><caps:c node="http://mail.google.com/xmpp/client/caps" ver="1.1" ext="pmuc-v1 sms-v1 camera-v1 video-v1 voice-v1" xmlns:caps="http://jabber.org/protocol/caps"/><x xmlns="vcard-temp:x:update"><photo>6f1c8f368b25834920b508ab69a9378d3dec8df1</photo></x></presence>
+
+<presence from="reyner@gmail.com/MessagingBb236dfec" to="james.wu.jimmy@gmail.com/F815667B" xmlns:stream="http://etherx.jabber.org/streams"><show>away</show><caps:c node="http://www.android.com/gtalk/client/caps" ver="1.1" xmlns:caps="http://jabber.org/protocol/caps"/><x xmlns="vcard-temp:x:update"><photo>6f1c8f368b25834920b508ab69a9378d3dec8df1</photo></x></presence>
+
+<presence from="thephantompaulbooth@gmail.com/MessagingAa98e8986" to="james.wu.jimmy@gmail.com/F815667B" xmlns:stream="http://etherx.jabber.org/streams"><show>away</show><caps:c node="http://www.android.com/gtalk/client/caps" ver="1.1" xmlns:caps="http://jabber.org/protocol/caps"/><x xmlns="vcard-temp:x:update"><photo>68488406b3c14365011cfc47bf28189f3b65c037</photo></x></presence>
+
+<presence from="rjasinski@gmail.com/android26a4f1f6bc23" to="james.wu.jimmy@gmail.com/F815667B" xmlns:stream="http://etherx.jabber.org/streams"><status/><show>away</show><priority>24</priority><caps:c node="http://www.android.com/gtalk/client/caps" ext="pmuc-v1" ver="1.1" xmlns:caps="http://jabber.org/protocol/caps"/><x xmlns="vcard-temp:x:update"><photo>cb29d3a9a34210e2b901dde98eccf592189496bc</photo></x></presence>
+
+<presence from="rjasinski@gmail.com/gmail.D2A36089" to="james.wu.jimmy@gmail.com/F815667B" xmlns:stream="http://etherx.jabber.org/streams"><status/><priority>24</priority><caps:c node="http://mail.google.com/xmpp/client/caps" ver="1.1" ext="pmuc-v1 sms-v1 vavinvite-v1" xmlns:caps="http://jabber.org/protocol/caps"/><x xmlns="vcard-temp:x:update"><photo>cb29d3a9a34210e2b901dde98eccf592189496bc</photo></x></presence>
+
+<presence from="kmartinez915@gmail.com/Talkatone.FB47EDE4" to="james.wu.jimmy@gmail.com/F815667B" xmlns:stream="http://etherx.jabber.org/streams"><priority>120</priority><caps:c node="http://mail.google.com/xmpp/client/caps" ver="1.1" ext="sms-v1 phone-v1 voice-v1 location-v1" xmlns:caps="http://jabber.org/protocol/caps"/><show>xa</show><status>(on push) using Talkatone.com, free voice and text app on my iPad</status><x xmlns="vcard-temp:x:update"><photo>ba87cfa33ce8ac41e4519e9d70c3f9ec41e246da</photo></x></presence>
+
+<presence from="kmartinez915@gmail.com/messaging-smgmailw80D46AE2" to="james.wu.jimmy@gmail.com/F815667B" xmlns:stream="http://etherx.jabber.org/streams"><show>away</show><x xmlns="vcard-temp:x:update"><photo>ba87cfa33ce8ac41e4519e9d70c3f9ec41e246da</photo></x></presence>
+
+<presence from="kmartinez915@gmail.com/MessagingA6f086c99" to="james.wu.jimmy@gmail.com/F815667B" xmlns:stream="http://etherx.jabber.org/streams"><show>away</show><caps:c node="http://www.android.com/gtalk/client/caps" ver="1.1" xmlns:caps="http://jabber.org/protocol/caps"/><x xmlns="vcard-temp:x:update"><photo>ba87cfa33ce8ac41e4519e9d70c3f9ec41e246da</photo></x></presence>
+
+<presence from="drewheine@gmail.com/Talkatone.BC855ECE" to="james.wu.jimmy@gmail.com/F815667B" xmlns:stream="http://etherx.jabber.org/streams"><priority>120</priority><caps:c node="http://mail.google.com/xmpp/client/caps" ver="1.1" ext="sms-v1 phone-v1 voice-v1 location-v1" xmlns:caps="http://jabber.org/protocol/caps"/><show>xa</show><status>(on push) using Talkatone.com, free voice and text app on my iPhone</status><x xmlns="vcard-temp:x:update"><photo/></x></presence>
+
+<presence from="evan.wang22@gmail.com/android_talk5215ad727d39" to="james.wu.jimmy@gmail.com/F815667B" xmlns:stream="http://etherx.jabber.org/streams"><status/><priority>24</priority><caps:c node="http://www.android.com/gtalk/client/caps" ext="pmuc-v1 voice-v1 video-v1 camera-v1" ver="1.1" xmlns:caps="http://jabber.org/protocol/caps"/><x xmlns="vcard-temp:x:update"><photo/></x></presence>
+
+<presence from="fiammaglass@gmail.com/android_talk38b35ee871e9" to="james.wu.jimmy@gmail.com/F815667B" xmlns:stream="http://etherx.jabber.org/streams"><priority>24</priority><caps:c node="http://www.android.com/gtalk/client/caps" ext="pmuc-v1 voice-v1 video-v1 camera-v1" ver="1.1" xmlns:caps="http://jabber.org/protocol/caps"/><show>away</show><x xmlns="vcard-temp:x:update"><photo/></x></presence>
+
+<presence from="daniel.w.dichter@gmail.com/gmail.D2174659" to="james.wu.jimmy@gmail.com/F815667B" xmlns:stream="http://etherx.jabber.org/streams"><status/><show>away</show><priority>0</priority><caps:c node="http://mail.google.com/xmpp/client/caps" ver="1.1" ext="pmuc-v1 sms-v1 video-v1 voice-v1" xmlns:caps="http://jabber.org/protocol/caps"/><x xmlns="vcard-temp:x:update"><photo>dff796bac8ad4bd580a2eda68cca70aceef1426c</photo></x></presence>
+
+<presence from="jimmyjimbo13@gmail.com/gmail.D3015800" to="james.wu.jimmy@gmail.com/F815667B" xmlns:stream="http://etherx.jabber.org/streams"><status>http://www.youtube.com/watch?v=t9AmuYqjRyg | http://www.newyorker.com/online/blogs/shouts/2013/08/wizard-or-hipster.html | http://imgur.com/JgxT3</status><priority>24</priority><caps:c node="http://mail.google.com/xmpp/client/caps" ver="1.1" ext="pmuc-v1 sms-v1 camera-v1 video-v1 voice-v1" xmlns:caps="http://jabber.org/protocol/caps"/><x xmlns="vcard-temp:x:update"><photo>e0d11a4e982f15df04505f5d50a9265c45dd0ad2</photo></x></presence>
+
+<presence from="jimmyjimbo13@gmail.com/android2ca176ed4f38" to="james.wu.jimmy@gmail.com/F815667B" xmlns:stream="http://etherx.jabber.org/streams"><status>http://www.youtube.com/watch?v=t9AmuYqjRyg | http://www.newyorker.com/online/blogs/shouts/2013/08/wizard-or-hipster.html | http://imgur.com/JgxT3</status><priority>24</priority><caps:c node="http://www.android.com/gtalk/client/caps" ext="pmuc-v1" ver="1.1" xmlns:caps="http://jabber.org/protocol/caps"/><show>away</show><x xmlns="vcard-temp:x:update"><photo>e0d11a4e982f15df04505f5d50a9265c45dd0ad2</photo></x></presence>
+
+<presence from="wintercloud.r2@gmail.com/gmail4BB84D6D" to="james.wu.jimmy@gmail.com/F815667B" xmlns:stream="http://etherx.jabber.org/streams"><c node="http://mail.google.com/xmpp/client/caps" ver="1.1" ext="voice-v1" xmlns="http://jabber.org/protocol/caps"/><show>away</show><status>Voice Only</status><priority>33</priority><x xmlns="vcard-temp:x:update"><photo>df1a1f011b50383c5e18455562290136ceab459d</photo></x></presence>
+
+<presence from="jinxp1@gmail.com/gmail.D2FDA5F3" to="james.wu.jimmy@gmail.com/F815667B" xmlns:stream="http://etherx.jabber.org/streams"><status>http://imgur.com/KVKLZqr</status><priority>24</priority><caps:c node="http://mail.google.com/xmpp/client/caps" ver="1.1" ext="pmuc-v1 sms-v1 camera-v1 video-v1 voice-v1" xmlns:caps="http://jabber.org/protocol/caps"/><show>dnd</show><x xmlns="vcard-temp:x:update"><photo>08739ac97817a94e46d32dc448bec19a422df0ad</photo></x></presence>
+
+<presence from="jinxp1@gmail.com/android_talkb55fe06a73be" to="james.wu.jimmy@gmail.com/F815667B" xmlns:stream="http://etherx.jabber.org/streams"><status>http://imgur.com/KVKLZqr</status><priority>24</priority><caps:c node="http://www.android.com/gtalk/client/caps" ext="pmuc-v1 voice-v1 video-v1 camera-v1" ver="1.1" xmlns:caps="http://jabber.org/protocol/caps"/><show>away</show><x xmlns="vcard-temp:x:update"><photo>08739ac97817a94e46d32dc448bec19a422df0ad</photo></x></presence>
+
+<presence from="vanweric@gmail.com/android_talk23d6c360fdff" to="james.wu.jimmy@gmail.com/F815667B" xmlns:stream="http://etherx.jabber.org/streams"><status/><priority>24</priority><caps:c node="http://www.android.com/gtalk/client/caps" ext="pmuc-v1 voice-v1 video-v1 camera-v1" ver="1.1" xmlns:caps="http://jabber.org/protocol/caps"/><x xmlns="vcard-temp:x:update"><photo/></x></presence>
+
+<presence from="vanweric@gmail.com/MessagingA781b1684" to="james.wu.jimmy@gmail.com/F815667B" xmlns:stream="http://etherx.jabber.org/streams"><show>away</show><caps:c node="http://www.android.com/gtalk/client/caps" ver="1.1" xmlns:caps="http://jabber.org/protocol/caps"/><x xmlns="vcard-temp:x:update"><photo/></x></presence>
+
+<presence from="melisalopardo@gmail.com/android_talk6743074ba6a0" to="james.wu.jimmy@gmail.com/F815667B" xmlns:stream="http://etherx.jabber.org/streams"><status/><priority>24</priority><caps:c node="http://www.android.com/gtalk/client/caps" ext="pmuc-v1 voice-v1 video-v1 camera-v1" ver="1.1" xmlns:caps="http://jabber.org/protocol/caps"/><show>away</show><x xmlns="vcard-temp:x:update"><photo>16fc8a56ee77480bc5286a375da334a727c1e82b</photo></x></presence>
+
+<presence from="pduan@eventbrite.com/gmail.D30041C1" to="james.wu.jimmy@gmail.com/F815667B" xmlns:stream="http://etherx.jabber.org/streams"><status/><show>away</show><priority>0</priority><caps:c node="http://mail.google.com/xmpp/client/caps" ver="1.1" ext="pmuc-v1 sms-v1 camera-v1 video-v1 voice-v1" xmlns:caps="http://jabber.org/protocol/caps"/><x xmlns="vcard-temp:x:update"><photo/></x></presence>
+
+<presence from="pduan@eventbrite.com/MessagingAa18c026f" to="james.wu.jimmy@gmail.com/F815667B" xmlns:stream="http://etherx.jabber.org/streams"><show>away</show><caps:c node="http://www.android.com/gtalk/client/caps" ver="1.1" xmlns:caps="http://jabber.org/protocol/caps"/><x xmlns="vcard-temp:x:update"><photo/></x></presence>
+
+<iq type="result" from="rjasinski@gmail.com/android26a4f1f6bc23" to="james.wu.jimmy@gmail.com/F815667B" id="disco1" xmlns:stream="http://etherx.jabber.org/streams"><query xmlns="http://jabber.org/protocol/disco#info"><identity category="account" type="registered" name="Google Talk User Account"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/disco#items"/></query></iq>
+
+<iq id="disco1" to="james.wu.jimmy@gmail.com/F815667B" type="error" from="evan.wang22@gmail.com/android_talk5215ad727d39" xmlns:stream="http://etherx.jabber.org/streams"><query node="http://www.android.com/gtalk/client/caps#1.1" xmlns="http://jabber.org/protocol/disco#info"/><error code="503" type="cancel"><service-unavailable xmlns="urn:ietf:params:xml:ns:xmpp-stanzas"/></error></iq>
+
+<presence from="evan.wang22@gmail.com/android_talk5215ad727d39" type="unavailable" to="james.wu.jimmy@gmail.com" xmlns:stream="http://etherx.jabber.org/streams"/>
+
+<iq type="result" id="disco1" to="james.wu.jimmy@gmail.com/F815667B" from="kmartinez915@gmail.com/Talkatone.FB47EDE4" xmlns:stream="http://etherx.jabber.org/streams"><query node="http://mail.google.com/xmpp/client/caps#1.1" xmlns="http://jabber.org/protocol/disco#info"><identity category="talkatone" type="internal"/></query></iq>
+
+<iq to="james.wu.jimmy@gmail.com/F815667B" from="james.wu.jimmy@gmail.com/gmail.D2FA7346" id="disco1" type="result" xmlns:stream="http://etherx.jabber.org/streams"><query node="http://mail.google.com/xmpp/client/caps#1.1" xmlns="http://jabber.org/protocol/disco#info"><identity category="client" type="pc"/><feature var="http://jabber.org/protocol/disco#info"/></query></iq>
+
+<iq from="wintercloud.r2@gmail.com/gmail4BB84D6D" to="james.wu.jimmy@gmail.com/F815667B" type="result" id="disco1" xmlns:stream="http://etherx.jabber.org/streams"><query xmlns="http://jabber.org/protocol/disco#info"><identity category="client" type="" name="asterisk"/><feature var="http://www.google.com/xmpp/protocol/voice/v1"/><feature var="http://jabber.org/protocol/disco#info"/></query></iq>
+
+<iq type="result" from="jinxp1@gmail.com/android_talkb55fe06a73be" to="james.wu.jimmy@gmail.com/F815667B" id="disco1" xmlns:stream="http://etherx.jabber.org/streams"><query xmlns="http://jabber.org/protocol/disco#info"><identity category="account" type="registered" name="Google Talk User Account"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/disco#items"/></query></iq>
+
+<iq type="result" from="melisalopardo@gmail.com/android_talk6743074ba6a0" to="james.wu.jimmy@gmail.com/F815667B" id="disco1" xmlns:stream="http://etherx.jabber.org/streams"><query xmlns="http://jabber.org/protocol/disco#info"><identity category="account" type="registered" name="Google Talk User Account"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/disco#items"/></query></iq>
+
+<iq to="james.wu.jimmy@gmail.com/F815667B" from="chaz.gwenapp@gmail.com/gmail.D17F5156" id="disco1" type="result" xmlns:stream="http://etherx.jabber.org/streams"><query node="http://mail.google.com/xmpp/client/caps#1.1" xmlns="http://jabber.org/protocol/disco#info"><identity category="client" type="pc"/><feature var="http://jabber.org/protocol/disco#info"/></query></iq>
+
+<iq type="result" from="fiammaglass@gmail.com/android_talk38b35ee871e9" to="james.wu.jimmy@gmail.com/F815667B" id="disco1" xmlns:stream="http://etherx.jabber.org/streams"><query xmlns="http://jabber.org/protocol/disco#info"><identity category="account" type="registered" name="Google Talk User Account"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/disco#items"/></query></iq>
+
+<iq type="result" from="vanweric@gmail.com/android_talk23d6c360fdff" to="james.wu.jimmy@gmail.com/F815667B" id="disco1" xmlns:stream="http://etherx.jabber.org/streams"><query xmlns="http://jabber.org/protocol/disco#info"><identity category="account" type="registered" name="Google Talk User Account"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/disco#items"/></query></iq>
+
+<iq to="james.wu.jimmy@gmail.com/F815667B" from="explodingmind@gmail.com/gmail.D29B584E" id="disco1" type="result" xmlns:stream="http://etherx.jabber.org/streams"><query node="http://mail.google.com/xmpp/client/caps#1.1" xmlns="http://jabber.org/protocol/disco#info"><identity category="client" type="pc"/><feature var="http://jabber.org/protocol/disco#info"/></query></iq>
+
+<iq type="result" from="jimmyjimbo13@gmail.com/android2ca176ed4f38" to="james.wu.jimmy@gmail.com/F815667B" id="disco1" xmlns:stream="http://etherx.jabber.org/streams"><query xmlns="http://jabber.org/protocol/disco#info"><identity category="account" type="registered" name="Google Talk User Account"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/disco#items"/></query></iq>
+
+<iq to="james.wu.jimmy@gmail.com/F815667B" from="daniel.w.dichter@gmail.com/gmail.D2174659" id="disco1" type="result" xmlns:stream="http://etherx.jabber.org/streams"><query node="http://mail.google.com/xmpp/client/caps#1.1" xmlns="http://jabber.org/protocol/disco#info"><identity category="client" type="pc"/><feature var="http://jabber.org/protocol/disco#info"/></query></iq>
+
+<iq type="result" id="disco1" to="james.wu.jimmy@gmail.com/F815667B" from="drewheine@gmail.com/Talkatone.BC855ECE" xmlns:stream="http://etherx.jabber.org/streams"><query node="http://mail.google.com/xmpp/client/caps#1.1" xmlns="http://jabber.org/protocol/disco#info"><identity category="talkatone" type="internal"/></query></iq>
+
+<iq to="james.wu.jimmy@gmail.com/F815667B" from="rjasinski@gmail.com/gmail.D2A36089" id="disco1" type="result" xmlns:stream="http://etherx.jabber.org/streams"><query node="http://mail.google.com/xmpp/client/caps#1.1" xmlns="http://jabber.org/protocol/disco#info"><identity category="client" type="pc"/><feature var="http://jabber.org/protocol/disco#info"/></query></iq>
+
+<iq to="james.wu.jimmy@gmail.com/F815667B" from="reyner@gmail.com/gmail.D2A02432" id="disco1" type="result" xmlns:stream="http://etherx.jabber.org/streams"><query node="http://mail.google.com/xmpp/client/caps#1.1" xmlns="http://jabber.org/protocol/disco#info"><identity category="client" type="pc"/><feature var="http://jabber.org/protocol/disco#info"/></query></iq>
+
+<iq type="result" from="amankapur91@gmail.com/android_talk65ddc69b16a8" to="james.wu.jimmy@gmail.com/F815667B" id="disco1" xmlns:stream="http://etherx.jabber.org/streams"><query xmlns="http://jabber.org/protocol/disco#info"><identity category="account" type="registered" name="Google Talk User Account"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/disco#items"/></query></iq>
+
+<iq to="james.wu.jimmy@gmail.com/F815667B" from="jinxp1@gmail.com/gmail.D2FDA5F3" id="disco1" type="result" xmlns:stream="http://etherx.jabber.org/streams"><query node="http://mail.google.com/xmpp/client/caps#1.1" xmlns="http://jabber.org/protocol/disco#info"><identity category="client" type="pc"/><feature var="http://jabber.org/protocol/disco#info"/></query></iq>
+
+<iq to="james.wu.jimmy@gmail.com/F815667B" from="jimmyjimbo13@gmail.com/gmail.D3015800" id="disco1" type="result" xmlns:stream="http://etherx.jabber.org/streams"><query node="http://mail.google.com/xmpp/client/caps#1.1" xmlns="http://jabber.org/protocol/disco#info"><identity category="client" type="pc"/><feature var="http://jabber.org/protocol/disco#info"/></query></iq>
+
+<iq to="james.wu.jimmy@gmail.com/F815667B" from="pduan@eventbrite.com/gmail.D30041C1" id="disco1" type="result" xmlns:stream="http://etherx.jabber.org/streams"><query node="http://mail.google.com/xmpp/client/caps#1.1" xmlns="http://jabber.org/protocol/disco#info"><identity category="client" type="pc"/><feature var="http://jabber.org/protocol/disco#info"/></query></iq>
+

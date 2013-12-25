@@ -1,14 +1,11 @@
 var mongoose = require('mongoose');
 
 var ItemSchema = new mongoose.Schema({
-    date: String,
+    date: Date,
     from: String,
     to: String,
     status: String,
-    presence: String,
-    photo: String
 });
-var ItemModel = mongoose.model('Item', ItemSchema);
-mongoose.connect('mongodb://localhost/gchatxmpp');
+var ItemModel = mongoose.model('status', ItemSchema);
+mongoose.connect('mongodb://localhost/tmad4000');
 console.log("Connected to db");
-//db.on('error', console.error.bind(console, 'connection error:'));

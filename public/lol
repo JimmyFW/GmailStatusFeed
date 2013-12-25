@@ -1,0 +1,1091 @@
+Connecting to jimmyjimbo13@gmail.com
+Yes, I'm connected!
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     from: 'jimmyjimbo13@gmail.com/android2ca176ed4f38',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     from: 'jimmyjimbo13@gmail.com/gmail.DA63FED7',
+     id: 'disco1',
+     type: 'result',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     from: 'blackbelt1092@gmail.com/android5adbb641395c',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     from: 'john.riemann.soong@gmail.com/android_talkc2c50285c03b',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     from: 'dianavermilya@gmail.com/android_talk23c658528abd',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'get',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'ae36a',
+     from: '3c2xeafu6fmic38yd6g2gea3e3@public.talk.google.com/Kopete',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ '\n',
+     { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [] },
+     '\n' ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'get',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'acc0a',
+     from: '3c2xeafu6fmic38yd6g2gea3e3@public.talk.google.com/Laptop',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ '\n',
+     { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [] },
+     '\n' ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     from: 'daniel.andtheworldspins@gmail.com/androida44d1fe15e1b',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     from: 'danranard@gmail.com/gmail.D911AE52',
+     id: 'disco1',
+     type: 'result',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'get',
+     id: 'iChat_30647C07',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     from: '2zfjcqpikgood0hkmhjgw1ufcg@public.talk.google.com/Rahee’s Ma1A513A1A',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     from: 'dougbae@gmail.com/android_talkfcc18b5e73a3',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     from: 'danranard@gmail.com/android707d29c27c27',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     from: 'brud.91@gmail.com/android_talk7f08049f1ed9',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     from: 'brud.91@gmail.com/gmail.D91CBA80',
+     id: 'disco1',
+     type: 'result',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     from: 'ddaniel.wang@gmail.com/gmail.DCCF01A0',
+     id: 'disco1',
+     type: 'result',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     from: '2010khorita@gmail.com/gmail.D9D578D3',
+     id: 'disco1',
+     type: 'result',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     from: 'greyson.lewis@gmail.com/android_talked8a36ebfb12',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     from: '2010khorita@gmail.com/android_talk912a525bd0af',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     from: 'cnhay09@gmail.com/gmail.D9DB589B',
+     id: 'disco1',
+     type: 'result',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     from: 'etmail10@gmail.com/gmail.DA0D8B62',
+     id: 'disco1',
+     type: 'result',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     from: 'unclesaamm@gmail.com/gmail.DAD6143B',
+     id: 'disco1',
+     type: 'result',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     type: 'result',
+     id: 'disco1',
+     from: 'unclesaamm@gmail.com/imo9A314CEC',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     from: 'dnoftheworld@gmail.com/android7e474f1f2f36',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     from: 'james.wu.jimmy@gmail.com/gmail.DBE16316',
+     id: 'disco1',
+     type: 'result',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     from: 'burningsquirrel5@gmail.com/android5db530b566b1',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { from: 'wintercloud.r2@gmail.com/gmailDD621E33',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     type: 'result',
+     id: 'disco1',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     from: 'live.phyzix@gmail.com/gmail.D9E5030F',
+     id: 'disco1',
+     type: 'result',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     from: 'ryli721@gmail.com/android_talk6eb4bc16b819',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     from: 'astapleton91@gmail.com/gmail.DA5AE370',
+     id: 'disco1',
+     type: 'result',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     id: 'disco1',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     from: 'rotationaxis@gmail.com/AdiumD63F0D48',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     from: 'zhengyu.lenny.li@gmail.com/gmail.DA13F95A',
+     id: 'disco1',
+     type: 'result',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     from: 'zheng.franklin@gmail.com/gmail.D912DE5E',
+     id: 'disco1',
+     type: 'result',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     from: 'sophiavuw@gmail.com/android_talke6afa0f7b6a7',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     from: 'julianwang93@gmail.com/android_talk1bceda702331',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     from: 'jackchen92@gmail.com/android_talk9ea66a874a7e',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     from: 'jackchen92@gmail.com/gmail.D9A857E2',
+     id: 'disco1',
+     type: 'result',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     id: 'disco1',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     from: 'jackchen92@gmail.com/7B3D1F9F',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     from: 'spacemonkey2991@gmail.com/android_talk1f47c2ab546c',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     from: 'stas.moogle@gmail.com/Talk.v1046D5E4DAA',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     from: 'sdstriker10@gmail.com/android_talk75155cc474c4',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     from: 'john.schaller@gmail.com/gmail.DA8F2622',
+     id: 'disco1',
+     type: 'result',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     from: 'Zhengyu.Lenny.Li@gmail.com/Talk.v104F6892157',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     from: '2qbhtzgfytlg20ecuwxu4fku02@public.talk.google.com/android_talk284ad61c838a',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     from: '2qbhtzgfytlg20ecuwxu4fku02@public.talk.google.com/android_talk2232c0dcab2c',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     from: 'mwp2010@gmail.com/gmail.D9DB516D',
+     id: 'disco1',
+     type: 'result',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     from: 'rachelmathew999@gmail.com/gmail.D9DB8187',
+     id: 'disco1',
+     type: 'result',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     from: 'nthilly23@gmail.com/android_talk5d79485d7bce',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     id: 'disco1',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     from: 'jshife@gmail.com/78BCFD09',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     from: 'anikathepooh@gmail.com/android_talk4abff0595ae0',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     from: 'taj3tp@virginia.edu/android_talk83d923e2edc5',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     from: 'tjones445@gmail.com/android_talk37fbfb60d51c',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     from: 'youaregodalone@gmail.com/android_talka3b4b42604b8',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     from: '0wsj6kuhgkp0b0ln6uet3f75fp@public.talk.google.com/gmail.D9DA121A',
+     id: 'disco1',
+     type: 'result',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     from: 'deanna.zhu514@gmail.com/android_talk6c9ebc3d0ba4',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     from: 'nimickhay@gmail.com/gmail.D9122D2B',
+     id: 'disco1',
+     type: 'result',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     from: 'aaron12345@gmail.com/android_talkf3ee5834f60a',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     id: 'disco1',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     from: 'renjieyou@gmail.com/25590D26',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     from: '132ok125drqxa0poswr2tiintt@public.talk.google.com/gmail.DACAC543',
+     id: 'disco1',
+     type: 'result',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     from: 'kwhuo68@gmail.com/gmail.DA38DC26',
+     id: 'disco1',
+     type: 'result',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     from: 'jshife@gmail.com/gmail.DA38D0EA',
+     id: 'disco1',
+     type: 'result',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     from: '28r363lq0g6fb0vqc2yqjdy7s7@public.talk.google.com/android_talkec491a8d7b2a',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     from: 'adesai0991@gmail.com/android_talk4f142d434c38',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     id: 'disco1',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     from: 'gracewang92@gmail.com/AdiumB4CC2C53',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     from: '3fffprrqj2b362ebtv0leekkty@public.talk.google.com/android_talk8bb984e4d9b6',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     from: '3m116ex2ewfty0juxqp8ih5vg9@public.talk.google.com/android_talkf503d4d7b984',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     id: 'disco1',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     from: 'srush013@gmail.com/17276022',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     from: '3h4jh5jmxtopp3gov93j1z99qw@public.talk.google.com/android_talk705457570d1b',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     from: 'zoya.schaller@gmail.com/gmail.D9691AD8',
+     id: 'disco1',
+     type: 'result',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     from: '2eyjg0i6v8vjo2laktu6tlkv9i@public.talk.google.com/android_talk69c88b6880b4',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     from: '3c2xeafu6fmic38yd6g2gea3e3@public.talk.google.com/Kopete',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ '\n',
+     { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] },
+     '\n' ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     from: 'adesai0991@gmail.com/gmail.D975D4E3',
+     id: 'disco1',
+     type: 'result',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     from: '3c2xeafu6fmic38yd6g2gea3e3@public.talk.google.com/Laptop',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ '\n',
+     { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] },
+     '\n' ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     id: 'disco1',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     from: '2zfjcqpikgood0hkmhjgw1ufcg@public.talk.google.com/Rahee’s Ma1A513A1A',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] },
+     '\n' ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     from: '3c2tb8lk0x0ho3dfc6yv15qyh0@public.talk.google.com/android_talk48e517c626c9',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     from: '1nr1q700ltnr105n73x1o2wyiz@public.talk.google.com/android_talkd4163c87a0fc',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     id: 'disco1',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] } ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     id: 'disco1',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     from: '2zfjcqpikgood0hkmhjgw1ufcg@public.talk.google.com/Rahee’s Ma1A513A1A',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] },
+     '\n' ] }
+cannot parse stanza
+{ name: 'iq',
+  parent: null,
+  attrs: 
+   { type: 'result',
+     id: 'disco1',
+     to: 'jimmyjimbo13@gmail.com/F8DC27F1',
+     from: '2zfjcqpikgood0hkmhjgw1ufcg@public.talk.google.com/Rahee’s Ma1A513A1A',
+     'xmlns:stream': 'http://etherx.jabber.org/streams' },
+  children: 
+   [ { name: 'query',
+       parent: [Circular],
+       attrs: [Object],
+       children: [Object] },
+     '\n' ] }

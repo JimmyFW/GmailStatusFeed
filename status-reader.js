@@ -152,11 +152,11 @@ xmpp.on('buddy',function(jid, state) {
 
 xmpp.on('stanza', function(stanza) {
     console.log(stanza);
+    vars.streamAll.write(stanza + '\n');
     vars.json = xmljson.parseXmlString(stanza);
     vars.logentry = parse(stanza);
     if(vars.logentry) {
-	    vars.stream.write(vars.logentry + '\n');
-	    vars.streamAll.write(vars.json + '\n');
+	    vars.stream.write(vars.logentry.toString() + '\n');
 
 	    sio.sockets.emit('xmpp-push', vars.logentry);
 

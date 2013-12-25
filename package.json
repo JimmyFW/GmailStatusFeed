@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node app"
   },
-  "description" : "Logs your friends' gmail statuses to text",
+  "description" : "Logs your friends' gmail statuses to db",
   "homepage" : "http://www.github.com/jimmyfw/GmailStatusFeed",
   "keywords" : ["xmpp", "chat", "server", "client", "gmail", "status"],
   "author" : "James Wu",
@@ -14,13 +14,10 @@
         "jade": "*",
         "stylus": "*",
         "nib": "*",
-        "cleverbot-node": "*",
         "mongodb": "*",
         "simple-xmpp": "*",
         "fs": "*",
         "libxmljs": "*",
-        "socket.io": "*",
-        "mongoose": "*",
-        "everyauth": "*"},
+        "mongoose": "*"},
   "repository" : {"type": "git", "url": "git://github.com/JimmyFW/GmailStatusFeed.git"}
 }
